@@ -1,0 +1,124 @@
+body{
+    background: url(./img/sky.jpg);
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.img_country{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.btn{
+    position: absolute;
+    /* margin-left: -2px; */
+    margin-top: 41px;
+}
+.btn_b:hover{
+    cursor: pointer;
+    color: rgb(165, 42, 42);
+    background-color: chartreuse;
+    
+}
+.btn_ch{
+    position: absolute;
+    margin-left: 192px;
+    margin-top: 19px;
+   
+}
+.btn_ch:hover{
+    cursor: pointer;
+    color: rgb(165, 42, 42);
+    background-color: chartreuse;
+}
+.btn_t{
+    position: absolute;
+    margin-left: -291px;
+    margin-top: 33px;
+
+}
+.btn_t:hover{
+    cursor: pointer;
+    color: rgb(165, 42, 42);
+    background-color: chartreuse;
+}
+
+.btn_dj{
+    position: absolute;
+    margin-left: -218px;
+    margin-top: 244px;
+}
+.btn_dj:hover{
+    cursor: pointer;
+    color: rgb(165, 42, 42);
+    background-color: chartreuse;
+}
+.btn_o{
+    position: absolute;
+    margin-left: -232px;
+    margin-top: 301px;
+}
+.btn_o:hover{
+    cursor: pointer;
+    color: rgb(165, 42, 42);
+    background-color: chartreuse;
+}
+.btn_batken{
+    position: absolute;
+    margin-left: -430px;
+    margin-top: 354px;
+}
+.btn_batken:hover{
+    cursor: pointer;
+    color: rgb(165, 42, 42);
+    background-color: chartreuse;
+}
+.btn_n{
+    position: absolute;
+    margin-left: 79px;
+    margin-top: 187px;
+}
+.btn_n:hover{
+    cursor: pointer;
+    color: rgb(165, 42, 42);
+    background-color: chartreuse;
+}
+.forecast{
+    position: absolute;
+    display: none;
+}
+.forecast.active{
+    display: block;
+    background-color:white;
+    
+    margin-left: 175px;
+    width: 200px;
+}
+.forecast_1{
+    position: absolute;
+    display: none;
+}
+.forecast_1.active{
+    display: block;
+    background-color: rgb(233 224 224 / 93%);
+   
+    margin-left: -237px;
+    margin-top: 135px;
+    width: 200px;
+}
+table{
+    border-collapse: collapse;
+    height: 100px;
+    width: 200px;
+}
+td,th{
+    border: solid 1px;
+}
